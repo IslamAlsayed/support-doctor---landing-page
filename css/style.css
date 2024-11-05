@@ -648,10 +648,13 @@ article {
 /* ==== */
 
 .lblock {
-  flex: 1;
   display: flex;
   padding: 20px;
   text-align: end;
+}
+
+.lblock div {
+  flex: 1;
 }
 
 .lblock img {
